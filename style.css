@@ -1,0 +1,51 @@
+body
+{
+    background: #81cfce;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body
+{
+    height: 100%;
+    margin: 0;
+}
+
+#flex-container
+{
+    background: #748b9b;
+    margin: auto;
+    height: 100%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#flex-container > div
+{
+    padding: 10px;
+}
+
+#header
+{
+}
+
+#header img
+{
+    height: 50px;
+}
+
+#main
+{
+    flex-grow: 1;
+}
+
+#main > h1
+{
+    color: #d9965a;
+}
+
+#footer
+{
+}
